@@ -59,7 +59,7 @@
        +icons          ; colorful icons for dired-mode
         )
        electric          ; smarter, keyword-based electric-indent
-       ;;eshell            ; a consistent, cross-platform shell (WIP)
+       eshell            ; a consistent, cross-platform shell (WIP)
        imenu             ; an imenu sidebar and searchable code index
        term              ; terminals in Emacs
        vc                ; version-control and Emacs, sitting in a tree
@@ -118,8 +118,8 @@
        latex             ; writing papers in Emacs has never been so fun
        ;;ledger            ; an accounting system in Emacs
        ;;lua               ; one-based indices? one-based indices
-       ;;markdown          ; writing docs for people to ignore
-       (markdown +markdown-compile)
+       markdown          ; writing docs for people to ignore
+       ;;(markdown +markdown-compile)
        ;;nim               ; python + lisp at the speed of c
        ;;nix               ; I hereby declare "nix geht mehr!"
        ;;ocaml             ; an objective camel
