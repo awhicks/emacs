@@ -8,6 +8,9 @@
 ;; More information about these modules (and what flags they support) can be
 ;; found in modules/README.org.
 
+;;(when (memq window-system '(mac ns x))
+;;  (exec-path-from-shell-initialize))
+
 (doom! :input
        ;;chinese
        ;;japanese
@@ -119,7 +122,6 @@
        ;;ledger            ; an accounting system in Emacs
        ;;lua               ; one-based indices? one-based indices
        markdown          ; writing docs for people to ignore
-       ;;(markdown +markdown-compile)
        ;;nim               ; python + lisp at the speed of c
        ;;nix               ; I hereby declare "nix geht mehr!"
        ;;ocaml             ; an objective camel
@@ -141,7 +143,7 @@
        ;;racket            ; a DSL for DSLs
        ;;rest              ; Emacs as a REST client
        ;;ruby              ; 1.step {|i| p "Ruby is #{i.even? ? 'love' : 'life'}"}
-       ;;rust              ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
+       rust              ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
        ;;scala             ; java, but good
        sh                  ; she sells (ba|z|fi)sh shells on the C xor
        ;;solidity          ; do you need a blockchain? No.
