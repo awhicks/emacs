@@ -5,7 +5,7 @@
       user-mail-address "awh4kc@virginia.edu"
       epa-file-encrypt-to user-mail-address)
 
-(setq doom-font (font-spec :family "Fira Code" :size 12)
+(setq doom-font (font-spec :family "Fira Code" :size 14)
       doom-variable-pitch-font (font-spec :family "Noto Sans" :size 13))
 
 (when IS-LINUX
