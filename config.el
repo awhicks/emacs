@@ -13,6 +13,4 @@
 
 (setq doom-theme 'doom-one)
 
-(+global-word-wrap-mode +1)
-
 (setq +latex-viewers '(zathura))
