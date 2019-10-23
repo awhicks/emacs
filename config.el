@@ -10,3 +10,5 @@
 
 (when IS-LINUX
   (font-put doom-font :weight 'semi-light))
+
+(setq doom-theme 'doom-one)
