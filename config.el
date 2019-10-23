@@ -1,4 +1,4 @@
-;;; ~/.doom.d/config.el -*- lexical-binding: t; -*-
+;;; .doom.d/config.el -*- lexical-binding: t; -*-
 
 ;; Place your private configuration here
 (setq user-full-name "Alex Hicks"
@@ -12,3 +12,7 @@
   (font-put doom-font :weight 'semi-light))
 
 (setq doom-theme 'doom-one)
+
+(+global-word-wrap-mode +1)
+
+(setq +latex-viewers '(zathura))
