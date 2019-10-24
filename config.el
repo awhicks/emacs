@@ -14,3 +14,14 @@
 (setq doom-theme 'doom-one)
 
 (setq +latex-viewers '(zathura))
+
+(after! neotree
+  (setq doom-themes-neotree-file-icons 'icons)
+  (setq doom-themes-neotree-enable-file-icons 'icons)
+  (setq neo-theme 'icons))
+
+(after! company
+  (setq company-idle-delay 0))
+
+(after! doom-themes
+  (setq doom-neotree-file-icons t))
