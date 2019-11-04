@@ -7,3 +7,4 @@
 ;; (package! builtin-package :disable t)
 (package! undo-tree)
 (package! tramp)
+(package! dockerfile-mode)

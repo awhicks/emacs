@@ -25,3 +25,12 @@
 
 (after! doom-themes
   (setq doom-neotree-file-icons t))
+
+(setq-default evil-escape-key-sequence "jk")
+
+(use-package! dockerfile-mode
+  :mode "Dockerfile\\'"
+  :config
+  (put 'dockerfile-image-name 'safe-local-variable #'stringp)
+  )
+
