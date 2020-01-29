@@ -73,17 +73,17 @@
        vc                ; version-control and Emacs, sitting in a tree
 
        :term
-       eshell            ; a consistent, cross-platform shell (WIP)
+       ;;eshell            ; a consistent, cross-platform shell (WIP)
        ;;shell             ; a terminal REPL for Emacs
        ;;term              ; terminals in Emacs
-       ;;vterm             ; another terminals in Emacs
+       vterm             ; another terminals in Emacs
 
        :tools
        ;;ansible
        ;;debugger          ; FIXME stepping through code, to help you add bugs
-       direnv
+       ;;direnv
        docker
-       editorconfig      ; let someone else argue about tabs vs spaces
+       ;;editorconfig      ; let someone else argue about tabs vs spaces
        ;;ein               ; tame Jupyter notebooks with emacs
        eval              ; run code, run (also, repls)
        flycheck          ; tasing you for every semicolon you forget
@@ -163,11 +163,11 @@
        ;;rust              ; Fe2O3.unwrap().unwrap().unwrap().unwrap()
        ;;scala             ; java, but good
        ;;scheme            ; a fully conniving family of lisps
-       sh                ; she sells {ba,z,fi}sh shells on the C xor
+       ;;sh                ; she sells {ba,z,fi}sh shells on the C xor
        ;;solidity          ; do you need a blockchain? No.
        ;;swift             ; who asked for emoji variables?
        ;;terra             ; Earth and Moon in alignment for performance.
-       web               ; the tubes
+       ;;web               ; the tubes
 
        :email
        ;;(mu4e +gmail)       ; WIP
@@ -182,9 +182,9 @@
        ;;irc               ; how neckbeards socialize
        ;;(rss +org)        ; emacs as an RSS reader
        ;;twitter           ; twitter client https://twitter.com/vnought
-       (write            ; emacs for writers (fiction, notes, papers, etc.)
+       ;;(write            ; emacs for writers (fiction, notes, papers, etc.)
         ;;+wordnut         ; wordnet (wn) search
-        +langtool)       ; a proofreader (grammar/style check) for Emacs
+        ;;+langtool)       ; a proofreader (grammar/style check) for Emacs
 
        :config
        ;; For literate config users. This will tangle+compile a config.org
