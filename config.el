@@ -6,14 +6,12 @@
       epa-file-encrypt-to user-mail-address)
 
 (setq doom-font (font-spec :family "Fira Code" :size 14)
-      doom-variable-pitch-font (font-spec :family "Noto Sans" :size 13))
+      doom-variable-pitch-font (font-spec :family "Monaco" :size 13))
 
 (when IS-LINUX
   (font-put doom-font :weight 'semi-light))
 
 (setq doom-theme 'doom-one)
-
-(setq +latex-viewers '(zathura))
 
 (after! neotree
   (setq doom-themes-neotree-file-icons 'icons)
